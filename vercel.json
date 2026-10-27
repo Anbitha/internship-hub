@@ -4,7 +4,7 @@
     "client": {
       "root": "client",
       "framework": "vite",
-      "installCommand": "node ./node_modules/vite/bin/vite.js build",
+      "installCommand": "npm ci --include=optional",
       "buildCommand": "npx vite build"
     },
     "server": {
