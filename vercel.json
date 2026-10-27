@@ -4,7 +4,7 @@
     "client": {
       "root": "client",
       "framework": "vite",
-      "installCommand": "npm install --foreground-scripts",
+      "installCommand": "node ./node_modules/vite/bin/vite.js build",
       "buildCommand": "npx vite build"
     },
     "server": {
