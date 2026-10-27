@@ -2,5 +2,5 @@ import Tabs from './Tabs.jsx'; import { Postings, Companies, Policy, Application
 export default function Faculty({ user }) {
   return user.facultyType === 'coordinator'
     ? <Tabs tabs={{ Postings: <Postings />, Companies: <Companies />, Policy: <Policy />, Applications: <Applications /> }} />
-    : <Tabs tabs={{ Reports: <Reports />, Evaluations: <Evaluations /> }} />;
+    : <Tabs tabs={{ 'Review Certificates & Credits': <Evaluations /> }} />;
 }
